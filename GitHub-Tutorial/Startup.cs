@@ -45,6 +45,7 @@ namespace GitHub_Tutorial
             }
 
             app.UseHttpsRedirection();
+            Console.WriteLine("Hello World");
 
             app.UseRouting();
 
